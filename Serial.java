@@ -6,11 +6,7 @@ import java.awt.event.*;
 
 public class Serial {
 	static SerialPort serialPort;
-<<<<<<< HEAD
 
-=======
-	
->>>>>>> 712e06acf2335fbe14c2574f4645631ec48a6e7e
 	public static void send(char c) {
 	    String s = "" + c;
         try {
