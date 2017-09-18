@@ -8,8 +8,7 @@ public class Serial
 {	
 	static SerialPort serialPort;
 	
-	public static void send(char c)
-	{
+	public static void send(char c) {
 	    String s = "" + c;
         try 
         {
